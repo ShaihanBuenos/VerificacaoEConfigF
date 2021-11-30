@@ -1,0 +1,8 @@
+com\bcopstein\entidades\BairroTest.class
+com\bcopstein\casosDeUso\Politicas\CalculoCustoViagemRelampagoTest.class
+com\bcopstein\entidades\geometria\AreaTest.class
+com\bcopstein\casosDeUso\Politicas\CalculoCustoViagemBasicoTest.class
+com\bcopstein\entidades\RoteiroTest.class
+com\bcopstein\entidades\PassageiroTest.class
+com\bcopstein\entidades\ViagemTest.class
+com\bcopstein\casosDeUso\Politicas\CalculoCustoViagemVeraoTest.class

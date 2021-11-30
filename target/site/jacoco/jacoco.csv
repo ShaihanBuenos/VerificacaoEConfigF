@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+GarOOpa,com.bcopstein.casosDeUso.Servicos,ServicosPassageiro,84,0,0,0,21,0,7,0,7,0
+GarOOpa,com.bcopstein.casosDeUso.Politicas,CustoViagem,18,0,0,0,6,0,2,0,2,0
+GarOOpa,com.bcopstein.casosDeUso.Politicas,CalculoCustoViagemBasico,0,41,0,0,0,16,0,10,0,10
+GarOOpa,com.bcopstein.casosDeUso.Politicas,CalculoCustoViagemVerao,0,35,0,4,0,10,0,5,0,3
+GarOOpa,com.bcopstein.casosDeUso.Politicas,CalculoCustoViagemRelampago,0,40,1,5,0,11,1,5,0,3
+GarOOpa,com.bcopstein.interfaces.Persistencia,RepositorioBairrosImplMem,150,0,2,0,16,0,4,0,3,0
+GarOOpa,com.bcopstein.interfaces.Persistencia,RepositorioPassageirosImplMem,63,0,0,0,12,0,4,0,4,0
+GarOOpa,com.bcopstein.entidades,Roteiro,9,89,4,6,2,23,5,8,1,7
+GarOOpa,com.bcopstein.entidades,Passageiro,10,73,0,2,1,18,1,10,1,9
+GarOOpa,com.bcopstein.entidades,Viagem,12,33,0,0,1,12,1,6,1,6
+GarOOpa,com.bcopstein.entidades,Bairro,9,116,4,6,2,24,5,11,1,10
+GarOOpa,com.bcopstein.entidades.geometria,Ponto,9,36,2,2,2,9,3,4,1,4
+GarOOpa,com.bcopstein.entidades.geometria,SituacaoReta,0,34,0,0,0,2,0,1,0,1
+GarOOpa,com.bcopstein.entidades.geometria,Area,27,154,9,17,7,28,10,11,1,7
+GarOOpa,com.bcopstein.entidades.geometria,Reta,32,36,3,3,5,11,5,4,2,4
