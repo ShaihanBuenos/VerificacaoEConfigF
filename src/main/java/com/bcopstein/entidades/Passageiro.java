@@ -3,7 +3,7 @@ package com.bcopstein.entidades;
 public class Passageiro{
 	private String cpf;
 	private String nome;
-	private int pontuacaoAcumulada;
+	private double pontuacaoAcumulada;
 	private int qtdadeAvaliacoes;
 
 	public static Passageiro novoPassageiro(String cpf, String nome){
@@ -14,7 +14,7 @@ public class Passageiro{
 		return new Passageiro(cpf,nome,pontuacaoAcumulada,qtdadeAvaliacoes);
 	}
 
-	private Passageiro(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes) {
+	public Passageiro(String cpf, String nome, int pontuacaoAcumulada, int qtdadeAvaliacoes) {
 		this.cpf = cpf;
 		this.nome = nome;
 		this.pontuacaoAcumulada = pontuacaoAcumulada;
@@ -29,7 +29,7 @@ public class Passageiro{
 		return nome;
 	}
 
-	public int getPontuacaoMedia() {
+	public double getPontuacaoMedia() {
 		return pontuacaoAcumulada / qtdadeAvaliacoes;
 	}
 
@@ -42,7 +42,7 @@ public class Passageiro{
 		}
 	}
 
-	public int getPontuacaoAcumulada() {
+	public double getPontuacaoAcumulada() {
 		return pontuacaoAcumulada;
 	}
 

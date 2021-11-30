@@ -47,7 +47,7 @@ public class Bairro {
     }
 
     public Ponto getPontoCentral(){
-        return this.area.pontoCentral();
+        return this.getArea().pontoCentral();
     }
 
     public SituacaoReta getClassificacao(Reta reta){
