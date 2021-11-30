@@ -3,6 +3,7 @@ package com.bcopstein.casosDeUso.Politicas;
 import com.bcopstein.entidades.Passageiro;
 import com.bcopstein.entidades.Roteiro;
 
+
 public class CalculoCustoViagemBasico implements ICalculoCustoViagem {
     private Roteiro roteiro;
     private Passageiro passageiro;
